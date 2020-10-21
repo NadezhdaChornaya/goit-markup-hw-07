@@ -1,0 +1,67 @@
+.sosial-list,
+.clients-section-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+// out team icons
+
+.sosial-list__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+
+  transition-property: background-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
+}
+
+.sosial-list__link:hover {
+  background-color: var(--acsent-color);
+}
+
+.sosial-list__icon {
+  fill: var(--icon-color);
+}
+
+.sosial-list__link:hover .sosial-list__icon {
+  fill: var(--secondary-color);
+}
+
+// our clients icons
+
+.clients-section__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 170px;
+  height: 90px;
+
+  border: 1px solid var(--icon-color);
+  border-radius: 4px;
+
+  transition-property: fill, border-color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
+}
+
+.clients-section__icon {
+  fill: var(--icon-color);
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
+}
+
+.clients-section__link:hover .clients-section__icon {
+  fill: var(--acsent-color);
+}
+
+.client-section__item:hover .clients-section__link {
+  border-color: var(--acsent-color);
+}

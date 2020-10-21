@@ -1,3 +1,18 @@
 @import "./utils/variables";
 @import "./base/normalize";
+@import "./base/common";
+@import "./components/button";
+
+// COMPONENTS
+
 @import "./components/page-header";
+@import "./components/page-footer";
+@import "./components/sections-styles";
+@import "./components/hero";
+@import "./components/section-title";
+@import "./components/occupation";
+@import "./components/advanteges";
+@import "./components/team";
+@import "./components/our-clients";
+@import "./components/modal";
+@import "./components/portfolio";

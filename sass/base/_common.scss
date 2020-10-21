@@ -1,0 +1,38 @@
+// Тип блочной модели элементов
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+// сбрасываем отступы строчных img
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.body {
+  background-color: var(--secondary-color);
+  color: var(--primery-text-color);
+  font-family: Roboto, sans-serif;
+
+  padding-top: var(--height-header-page);
+}
+
+// скрываем элементы
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
