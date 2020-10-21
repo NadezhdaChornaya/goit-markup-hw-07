@@ -16,15 +16,15 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-}
 
-.hero-section__block {
-  display: flex;
-  flex-direction: column;
-  width: 696px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+  &__block {
+    display: flex;
+    flex-direction: column;
+    width: 696px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
 }
 
 .hero-title {
