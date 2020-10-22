@@ -2,7 +2,7 @@
   padding-top: 60px;
   padding-bottom: 60px;
 
-  background-color: var(--background-color);
+  background-color: $background-color;
 
   &-container {
     display: flex;
@@ -27,14 +27,14 @@
 }
 
 .logo--light-theme {
-  color: var(--secondary-color);
+  color: $secondary-color;
 
   transition-property: color;
   transition-duration: 250ms;
-  transition-timing-function: var(--timing-function);
+  transition-timing-function: $timing-function;
 
   &:hover {
-    color: var(--acsent-color);
+    color: $acsent-color;
   }
 }
 
@@ -46,7 +46,7 @@
 .location {
   margin-top: 20px;
 
-  color: var(--secondary-color);
+  color: $secondary-color;
   font-size: 14px;
   font-style: normal;
   line-height: 1.71;
@@ -57,7 +57,7 @@
 .contacts {
   margin-top: 9px;
 
-  color: var(--footer-contacts-color);
+  color: $footer-contacts-color;
   font-size: 14px;
   font-style: normal;
   line-height: 1.71;
@@ -77,7 +77,7 @@
 
     text-transform: uppercase;
 
-    color: var(--secondary-color);
+    color: $secondary-color;
   }
 
   &__list {
@@ -101,7 +101,7 @@
 
   text-transform: uppercase;
 
-  color: var(--secondary-color);
+  color: $secondary-color;
 }
 
 .footer-sosial__link {
@@ -110,20 +110,20 @@
   align-items: center;
   width: 44px;
   height: 44px;
-  background-color: var(--footer-icon);
+  background-color: $footer-icon;
   border-radius: 50%;
 
   transition-property: background-color, fill;
   transition-duration: 250ms;
-  transition-timing-function: var(--timing-function);
+  transition-timing-function: $timing-function;
 
   &:hover {
-    background-color: var(--acsent-color);
+    background-color: $acsent-color;
   }
 }
 
 .footer-sosial__icon {
-  fill: var(--secondary-color);
+  fill: $secondary-color;
 }
 
 // mailing block
@@ -138,7 +138,7 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: transparent;
-  color: var(--secondary-color);
+  color: $secondary-color;
 }
 
 .footer-button {

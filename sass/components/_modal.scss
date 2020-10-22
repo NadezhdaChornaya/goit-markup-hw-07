@@ -16,7 +16,7 @@
   padding: 40px;
   transform: translate(-50%, -50%);
 
-  background-color: var(--secondary-color);
+  background-color: $secondary-color;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -40,7 +40,7 @@
   }
 
   &-button-icone:hover {
-    fill: var(--acsent-color);
+    fill: $acsent-color;
   }
 }
 
@@ -65,7 +65,7 @@
     font-size: 12px;
     line-height: 1.6;
     letter-spacing: 0.01em;
-    color: var(--primery-text-color);
+    color: $primery-text-color;
   }
   &-comment {
     height: 120px;
@@ -76,7 +76,7 @@
 
     transition-property: fill, border-color;
     transition-duration: 250ms;
-    transition-timing-function: var(--timing-function);
+    transition-timing-function: $timing-function;
   }
 
   &-input {
@@ -89,13 +89,13 @@
 
     transition-property: fill, border-color;
     transition-duration: 250ms;
-    transition-timing-function: var(--timing-function);
+    transition-timing-function: $timing-function;
   }
 
   &-input:focus,
   &-comment:focus {
     outline: none;
-    border-color: var(--acsent-color);
+    border-color: $acsent-color;
   }
 
   &-text {
@@ -108,7 +108,7 @@
     letter-spacing: 0.03em;
     text-align: center;
 
-    color: var(--title-text-color);
+    color: $title-text-color;
   }
 
   &-label-agree {
@@ -117,7 +117,7 @@
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--primery-text-color);
+    color: $primery-text-color;
   }
 }
 
@@ -133,7 +133,7 @@
 
   &:checked + .border-checkbox {
     border-color: transparent;
-    background-color: var(--acsent-color);
+    background-color: $acsent-color;
     background-origin: border-box;
     background-image: url("../img/check.svg");
   }
@@ -144,14 +144,14 @@
   margin-right: 7px;
   width: 16px;
   height: 15px;
-  border: 2px solid var(--title-text-color);
+  border: 2px solid $title-text-color;
   border-radius: 2px;
 }
 
 .form-agreement {
   font-size: 14px;
   line-height: 1.71;
-  color: var(--acsent-color);
+  color: $acsent-color;
 }
 
 .form-button,
@@ -167,9 +167,9 @@
 
   transition-property: fill, border-color;
   transition-duration: 250ms;
-  transition-timing-function: var(--timing-function);
+  transition-timing-function: $timing-function;
 }
 
 .form-field:focus-within .form-field-icon {
-  fill: var(--acsent-color);
+  fill: $acsent-color;
 }

@@ -1,7 +1,7 @@
 // logo
 
 .logo {
-  color: var(--acsent-color);
+  color: $acsent-color;
 
   font-family: Raleway, sans-serif;
   font-weight: bold;
@@ -12,13 +12,13 @@
 
   transition-property: color;
   transition-duration: 250ms;
-  transition-timing-function: var(--timing-function);
+  transition-timing-function: $timing-function;
 
   &--header:hover {
-    color: var(--title-text-color);
+    color: $title-text-color;
   }
 
   &--dark-theme {
-    color: var(--title-text-color);
+    color: $title-text-color;
   }
 }

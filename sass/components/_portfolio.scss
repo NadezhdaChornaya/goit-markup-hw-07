@@ -8,7 +8,7 @@
 }
 
 .title {
-  color: var(--title-text-color);
+  color: $title-text-color;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -34,13 +34,13 @@
   & .link {
     transition-property: color, background-color;
     transition-duration: 250ms;
-    transition-timing-function: var(--timing-function);
+    transition-timing-function: $timing-function;
   }
 
   & .link:hover,
   & .link:focus {
-    color: var(--secondary-color);
-    background-color: var(--acsent-color);
+    color: $secondary-color;
+    background-color: $acsent-color;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
       0px 2px 2px rgba(0, 0, 0, 0.12);
   }
@@ -49,8 +49,8 @@
 .button {
   border-radius: 4px;
   padding: 6px 22px;
-  color: var(--title-text-color);
-  background-color: var(--button-background);
+  color: $title-text-color;
+  background-color: $button-background;
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -61,7 +61,7 @@
 }
 
 .box-content-title {
-  color: var(--title-text-color);
+  color: $title-text-color;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -93,19 +93,19 @@
   line-height: 1.55;
   letter-spacing: 0.03em;
 
-  color: var(--secondary-color);
+  color: $secondary-color;
   background: rgba(33, 150, 243, 0.9);
   opacity: 0;
 
   transform: translateY(100%);
   transition-property: transform, opacity;
   transition-duration: 250ms;
-  transition-timing-function: var(--timing-function);
+  transition-timing-function: $timing-function;
 }
 
 /* ================================================================= */
 .text-title {
-  color: var(--primery-text-color);
+  color: $primery-text-color;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
@@ -133,7 +133,7 @@
 
   transition-property: box-shadow;
   transition-duration: 250ms;
-  transition-timing-function: var(--timing-function);
+  transition-timing-function: $timing-function;
 
   &:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -157,15 +157,15 @@
 
   border-right-width: 1px;
   border-right-style: solid;
-  border-right-color: var(--border-color);
+  border-right-color: $border-color;
 
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  border-bottom-color: var(--border-color);
+  border-bottom-color: $border-color;
 
   border-left-width: 1px;
   border-left-style: solid;
-  border-left-color: var(--border-color);
+  border-left-color: $border-color;
 }
 
 .title .language {
