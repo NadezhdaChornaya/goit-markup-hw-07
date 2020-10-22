@@ -440,10 +440,6 @@ img {
   padding-bottom: 47px;
 }
 
-.advantages-list .first-icon::before {
-  background-image: url(../../img/Group-icon.png);
-}
-
 .advantages-list {
   display: flex;
 }
@@ -458,16 +454,20 @@ img {
   background-color: #f5f4fa;
 }
 
+.advantages-list .first-icon::before {
+  background-image: url(../img/Group-icon.png);
+}
+
 .advantages-list .second-icon::before {
-  background-image: url(../../img/clock-icon.png);
+  background-image: url(../img/clock-icon.png);
 }
 
 .advantages-list .third-icon::before {
-  background-image: url(../../img/diagram-icon.png);
+  background-image: url(../img/diagram-icon.png);
 }
 
 .advantages-list .fourth-icon::before {
-  background-image: url(../../img/astronaut-icon.png);
+  background-image: url(../img/astronaut-icon.png);
 }
 
 .advantages-list .first-icon::before,
