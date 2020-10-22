@@ -3,6 +3,10 @@
   padding-bottom: 47px;
 }
 
+.advantages-list .first-icon::before {
+  background-image: url(../../img/Group-icon.png);
+}
+
 .advantages-list {
   display: flex;
 
@@ -18,9 +22,9 @@
     background-color: $button-background;
   }
 
-  & .first-icon::before {
-    background-image: url(../../img/Group-icon.png);
-  }
+  // & .first-icon::before {
+  //   background-image: url(../../img/Group-icon.png);
+  // }
 
   & .second-icon::before {
     background-image: url(../../img/clock-icon.png);
